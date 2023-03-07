@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/bootstrap.css">
+        <link rel="stylesheet" href="./assets/css/app.css">
+
+        <!-- <script>
+        (function () {
+            window.onload = function () {
+                const preloader = document.querySelector('.page-loading');
+                preloader.classList.remove('active');
+                setTimeout(function () {
+                    preloader.remove();
+                }, 1000);
+            };
+        })();
+    </script> -->
+        <title>Home page</title>
+    </head>
+
+    <body>
+        <!-- preloader  -->
+        <!-- <div class="page-loading active">
+        <div class="page-loading-inner">
+            <div class="page-spinner"></div><span>Loading...</span>
+        </div>
+    </div> -->
+
+        <header class="" style="background-image: url(./assets/images/hiro.png);width:100%;height: 100vh;">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+                <div class="container-xl">
+                    <a class="navbar-brand fs-4 mb-0" href="#">Weblogo</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- <div class="d-flex">
+                    <a href="#" class="me-3">Login</a>
+                    <a href="#" class="">Sign up</a>
+                </div> -->
+                    </div>
+                </div>
+            </nav>
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col d-flex flex-column justify-content-center" style="height: 500px;">
+                        <h1 class="text-white mb-4" style="font-size: 3rem;">Lorem ipsum dolor sit amet consectetur.</h1>
+                        <p class="text-light mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum animi
+                            facilis dolore dicta.
+                        </p>
+                        <div class="d-flex text-light mb-4">
+                            <span class="me-3">
+                                <svg id="Group_5" data-name="Group 5" xmlns="http://www.w3.org/2000/svg" width="17.294" height="17.294"
+                                    viewBox="0 0 17.294 17.294">
+                                    <path id="Polygon_1" data-name="Polygon 1"
+                                        d="M9.38.848a2.015,2.015,0,0,1,2.659.866l.057.107a2.015,2.015,0,0,0,1.367,1.026l.117.024a2.015,2.015,0,0,1,1.591,2.2l-.035.309a2.015,2.015,0,0,0,.49,1.558l.2.231a2.015,2.015,0,0,1,0,2.662l-.2.231a2.015,2.015,0,0,0-.49,1.558l.035.309a2.015,2.015,0,0,1-1.591,2.2l-.117.024A2.015,2.015,0,0,0,12.1,15.179l-.057.107a2.015,2.015,0,0,1-2.659.866h0a2.015,2.015,0,0,0-1.76,0h0a2.015,2.015,0,0,1-2.659-.866L4.9,15.179a2.015,2.015,0,0,0-1.367-1.026l-.117-.024a2.015,2.015,0,0,1-1.591-2.2l.035-.309a2.015,2.015,0,0,0-.49-1.558l-.2-.231a2.015,2.015,0,0,1,0-2.662l.2-.231a2.015,2.015,0,0,0,.49-1.558L1.83,5.071a2.015,2.015,0,0,1,1.591-2.2l.117-.024A2.015,2.015,0,0,0,4.9,1.821l.057-.107A2.015,2.015,0,0,1,7.62.848h0a2.015,2.015,0,0,0,1.76,0Z"
+                                        transform="translate(0.297 0) rotate(1)" fill="#fff" />
+                                    <path id="Union_1" data-name="Union 1" d="M5,0,2,3ZM0,1,2,3Z" transform="translate(6.067 7.5)" fill="none"
+                                        stroke="#312f2f" stroke-linejoin="round" stroke-width="1" />
+                                </svg>
+                                Let's talk about you project
+                            </span>
+                            <span>
+                                <svg id="Group_5" data-name="Group 5" xmlns="http://www.w3.org/2000/svg" width="17.294" height="17.294"
+                                    viewBox="0 0 17.294 17.294">
+                                    <path id="Polygon_1" data-name="Polygon 1"
+                                        d="M9.38.848a2.015,2.015,0,0,1,2.659.866l.057.107a2.015,2.015,0,0,0,1.367,1.026l.117.024a2.015,2.015,0,0,1,1.591,2.2l-.035.309a2.015,2.015,0,0,0,.49,1.558l.2.231a2.015,2.015,0,0,1,0,2.662l-.2.231a2.015,2.015,0,0,0-.49,1.558l.035.309a2.015,2.015,0,0,1-1.591,2.2l-.117.024A2.015,2.015,0,0,0,12.1,15.179l-.057.107a2.015,2.015,0,0,1-2.659.866h0a2.015,2.015,0,0,0-1.76,0h0a2.015,2.015,0,0,1-2.659-.866L4.9,15.179a2.015,2.015,0,0,0-1.367-1.026l-.117-.024a2.015,2.015,0,0,1-1.591-2.2l.035-.309a2.015,2.015,0,0,0-.49-1.558l-.2-.231a2.015,2.015,0,0,1,0-2.662l.2-.231a2.015,2.015,0,0,0,.49-1.558L1.83,5.071a2.015,2.015,0,0,1,1.591-2.2l.117-.024A2.015,2.015,0,0,0,4.9,1.821l.057-.107A2.015,2.015,0,0,1,7.62.848h0a2.015,2.015,0,0,0,1.76,0Z"
+                                        transform="translate(0.297 0) rotate(1)" fill="#fff" />
+                                    <path id="Union_1" data-name="Union 1" d="M5,0,2,3ZM0,1,2,3Z" transform="translate(6.067 7.5)" fill="none"
+                                        stroke="#312f2f" stroke-linejoin="round" stroke-width="1" />
+                                </svg>
+                                Let's talk about you project
+                            </span>
+                        </div>
+                        <div><button class="btn text-light" style="background-color: #766DF4;">Let's talk</button></div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </header>
+        <!-- services section  -->
+        <section>
+            <div class="container-xl py-5">
+                <h2 class="text-center fw-bold">Our services</h2>
+                <div class="row g-4 my-5">
+                    <div class="col-4 d-flex flex-column align-items-center">
+                        <i class="mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+                                <path id="palette-solid"
+                                    d="M46,22.919c0,.162-.081.243-.081.323.045,3.279-2.938,5.427-6.217,5.427h-8.8a4.383,4.383,0,0,0-4.312,4.393,4.815,4.815,0,0,0,.09.889,16.019,16.019,0,0,0,.979,2.686,9.7,9.7,0,0,1,1.087,3.773c0,2.866-1.941,5.454-4.8,5.57-.314.009-.638.018-.952.018A23,23,0,1,1,46,23Zm-37.375,0A2.927,2.927,0,0,0,5.75,25.794a2.823,2.823,0,0,0,2.875,2.875A2.822,2.822,0,0,0,11.5,25.794,2.925,2.925,0,0,0,8.625,22.919Zm2.875-5.75a2.822,2.822,0,0,0,2.875-2.875,2.875,2.875,0,1,0-5.75,0A2.822,2.822,0,0,0,11.5,17.169ZM23,5.669a2.927,2.927,0,0,0-2.875,2.875,2.875,2.875,0,0,0,5.75,0A2.927,2.927,0,0,0,23,5.669Zm11.5,11.5a2.822,2.822,0,0,0,2.875-2.875,2.875,2.875,0,1,0-5.75,0A2.822,2.822,0,0,0,34.5,17.169Z"
+                                    fill="#766df4" />
+                            </svg>
+                        </i>
+                        <h3 class="h4">Web Design</h3>
+                        <p class="text-center text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Voluptates
+                            mollitia et.</p>
+                    </div>
+                    <div class="col-4 d-flex flex-column align-items-center">
+                        <i class="mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="55.566" height="44.457" viewBox="0 0 55.566 44.457">
+                                <path id="code-solid"
+                                    d="M36.015,3.534,24.9,42.433A2.781,2.781,0,0,1,19.553,40.9l11.114-38.9a2.781,2.781,0,0,1,5.348,1.526Zm9.012,7,9.724,9.724a2.772,2.772,0,0,1,0,3.924l-9.724,9.724A2.775,2.775,0,1,1,41.1,29.982l7.753-7.762L41.1,14.458a2.775,2.775,0,0,1,3.924-3.924ZM14.465,14.458,6.707,22.22l7.758,7.762a2.775,2.775,0,0,1-3.924,3.924L.814,24.182a2.773,2.773,0,0,1,0-3.924l9.727-9.724a2.775,2.775,0,0,1,3.924,3.924Z"
+                                    transform="translate(0 0.008)" fill="#766df4" />
+                            </svg>
+                        </i>
+                        <h3 class="h4">Web Development</h3>
+                        <p class="text-center text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Voluptates
+                            mollitia et.</p>
+                    </div>
+                    <div class="col-4 d-flex flex-column align-items-center">
+                        <i class="mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="45.349" viewBox="0 0 48 45.349">
+                                <path id="chart-pie-solid"
+                                    d="M56.092,1.469A1.393,1.393,0,0,1,57.509,0a19.842,19.842,0,0,1,19.84,19.84,1.445,1.445,0,0,1-1.47,1.417H56.092ZM32,24.092A21.268,21.268,0,0,1,50.255,3.034a1.37,1.37,0,0,1,1.585,1.36V25.509L65.7,39.371a1.344,1.344,0,0,1-.133,2.055A21.262,21.262,0,0,1,32,24.092Zm46.625,1.417a1.349,1.349,0,0,1,1.364,1.506,21.234,21.234,0,0,1-6.546,12.6,1.429,1.429,0,0,1-1.878-.053L57.509,25.509Z"
+                                    transform="translate(-32)" fill="#766df4" />
+                            </svg>
+                        </i>
+                        <h3 class="h4">Analysis</h3>
+                        <p class="text-center text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Voluptates
+                            mollitia et.</p>
+                    </div>
+                    <div class="col-4 d-flex flex-column align-items-center">
+                        <i class="mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="46.002" height="46" viewBox="0 0 46.002 46">
+                                <path id="bug-solid"
+                                    d="M31.627,8.625v.32A2.551,2.551,0,0,1,29.075,11.5H16.927a2.621,2.621,0,0,1-2.633-2.555v-.32a8.666,8.666,0,0,1,17.332,0ZM3.717,9.47a2.872,2.872,0,0,1,4.067,0l5.748,5.75a1.614,1.614,0,0,1,.171.18,9.266,9.266,0,0,1,4.187-1.024H28.033A9.348,9.348,0,0,1,32.3,15.4a1.616,1.616,0,0,1,.171-.18l5.75-5.75a2.872,2.872,0,0,1,4.061,4.061l-5.75,5.75c-.135.063-.117.117-.18.171a9.458,9.458,0,0,1,1,3.549h5.777a2.875,2.875,0,0,1,0,5.75h-5.75a14.283,14.283,0,0,1-1.384,6.164,2.706,2.706,0,0,1,.539.431l5.75,5.75a2.872,2.872,0,1,1-4.061,4.061L32.552,39.5a14.3,14.3,0,0,1-8.113,3.558V21.564a1.461,1.461,0,0,0-1.518-1.438,1.5,1.5,0,0,0-1.438,1.438V43.055A14.306,14.306,0,0,1,13.45,39.5l-5.667,5.66A2.874,2.874,0,1,1,3.717,41.1l5.753-5.75a2.706,2.706,0,0,1,.539-.431,14.283,14.283,0,0,1-1.384-6.164H2.875a2.875,2.875,0,0,1,0-5.75H8.652a9.425,9.425,0,0,1,1-3.549,1.614,1.614,0,0,1-.18-.171l-5.753-5.75a2.87,2.87,0,0,1,0-4.061Z"
+                                    fill="#766df4" />
+                            </svg>
+                        </i>
+                        <h3 class="h4">Bug solving</h3>
+                        <p class="text-center text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Voluptates
+                            mollitia et.</p>
+                    </div>
+                    <div class="col-4 d-flex flex-column align-items-center">
+                        <i class="mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+                                <path id="wordpress-simple-brands"
+                                    d="M30,8A22,22,0,1,0,52,30,22.025,22.025,0,0,0,30,8ZM10.218,30a19.644,19.644,0,0,1,1.712-8.046L21.369,47.8A19.8,19.8,0,0,1,10.218,30ZM30,49.782a19.7,19.7,0,0,1-5.589-.807L30.346,31.73l6.077,16.66a2.673,2.673,0,0,0,.142.275A19.8,19.8,0,0,1,30,49.782ZM32.723,20.73c1.189-.062,2.262-.186,2.262-.186a.819.819,0,0,0-.124-1.632s-3.2.248-5.269.248c-1.943,0-5.207-.248-5.207-.248a.819.819,0,0,0-.124,1.632s1.011.124,2.076.186l3.078,8.445L25.085,42.153l-7.2-21.423c1.189-.062,2.262-.186,2.262-.186a.819.819,0,0,0-.124-1.632s-3.2.248-5.269.248c-.373,0-.807-.009-1.277-.027A19.782,19.782,0,0,1,43.36,15.407a2.507,2.507,0,0,0-.257-.018A3.424,3.424,0,0,0,39.785,18.9c0,1.632.94,3.007,1.943,4.64A10.381,10.381,0,0,1,43.36,29c0,1.694-.648,3.655-1.508,6.4l-1.969,6.591L32.723,20.73Zm7.221,26.365,6.041-17.467a18.711,18.711,0,0,0,1.508-7.088,14.559,14.559,0,0,0-.133-2.031,19.783,19.783,0,0,1-7.416,26.586Z"
+                                    transform="translate(-8 -8)" fill="#766df4" />
+                            </svg>
+                        </i>
+                        <h3 class="h4">Wordpress</h3>
+                        <p class="text-center text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Voluptates
+                            mollitia et.</p>
+                    </div>
+                    <div class="col-4 d-flex flex-column align-items-center">
+                        <i class="mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="38.807" height="44" viewBox="0 0 38.807 44">
+                                <path id="shopify-brands"
+                                    d="M39.258,16.5a.413.413,0,0,0-.39-.355c-.177,0-3.3-.071-3.3-.071s-1.917-1.847-2.627-2.557V51.906l11.149-2.768S39.293,16.716,39.258,16.5ZM30.416,13.52a10.349,10.349,0,0,0-.64-1.562A4.457,4.457,0,0,0,25.835,9.22a1.331,1.331,0,0,0-.355.035c-.035-.071-.106-.106-.142-.177a3.389,3.389,0,0,0-2.734-1.1c-2.129.071-4.258,1.6-5.965,4.331a16.887,16.887,0,0,0-2.379,6.215c-2.45.745-4.154,1.278-4.19,1.314-1.242.39-1.278.426-1.419,1.6-.106.887-3.371,25.886-3.371,25.886l26.841,4.655V13.094a3.7,3.7,0,0,0-.39.035S31.233,13.272,30.416,13.52Zm-4.9,1.528c-1.419.426-2.983.923-4.51,1.385A10.923,10.923,0,0,1,23.279,12a5.711,5.711,0,0,1,1.527-1.136A9.9,9.9,0,0,1,25.516,15.048ZM22.6,9.437a2.439,2.439,0,0,1,1.279.316,6.761,6.761,0,0,0-1.669,1.278,12.665,12.665,0,0,0-2.8,5.894c-1.279.391-2.557.781-3.726,1.136C16.461,14.656,19.337,9.508,22.6,9.437Zm-4.119,19.53c.142,2.272,6.143,2.769,6.5,8.131.248,4.226-2.237,7.1-5.824,7.316a8.712,8.712,0,0,1-6.711-2.273l.923-3.9s2.379,1.811,4.3,1.669A1.715,1.715,0,0,0,19.337,38.1c-.177-2.982-5.078-2.8-5.4-7.7-.284-4.119,2.415-8.274,8.38-8.665a7.551,7.551,0,0,1,3.48.427l-1.349,5.109a7.415,7.415,0,0,0-3.338-.568C18.486,26.873,18.45,28.541,18.486,28.967Zm8.451-14.346a11.3,11.3,0,0,0-.64-3.87c1.634.319,2.415,2.129,2.77,3.232Q28.108,14.248,26.937,14.621Z"
+                                    transform="translate(-5.28 -7.977)" fill="#766df4" />
+                            </svg>
+                        </i>
+                        <h3 class="h4">Shopify</h3>
+                        <p class="text-center text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Voluptates
+                            mollitia et.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- key feature  -->
+        <section style="background-color: #F9F9FC;">
+            <div class="container-xl py-5">
+                <div class="row pb-5">
+                    <div class="col-5 d-flex flex-column justify-content-center">
+                        <h1 class="h2 mb-3">Key Feature</h1>
+                        <p class="text-muted mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cumque
+                            aliquam adipisci</p>
+                        <a href="#" style="text-decoration: none; color: #766DF4;">
+                            Read more<i class="ms-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12.224" height="10.697" viewBox="0 0 12.224 10.697">
+                                    <path id="arrow-down-short" fill="currentColor"
+                                        d="M9.848,4a.764.764,0,0,1,.764.764v8.851l3.279-3.28a.765.765,0,1,1,1.082,1.082L10.388,16a.764.764,0,0,1-1.082,0L4.723,11.416a.765.765,0,0,1,1.082-1.082l3.279,3.28V4.764A.764.764,0,0,1,9.848,4Z"
+                                        transform="translate(-4 15.196) rotate(-90)" fill-rule="evenodd" />
+                                </svg>
+                            </i></a>
+                    </div>
+                    <div class="col-7">
+                        <div class="row gx-4 gy-5">
+                            <div class="col-6">
+                                <div class="shadow-sm bg-white rounded-3 p-4" style="border-top: 2px solid #766DF4;">
+                                    <h5 class="mb-3">Responsive website</h6>
+                                        <p class="text-muted small">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                            elit. Eos
+                                            architecto id
+                                            excepturi.</p>
+                                </div>
+                            </div>
+                            <div class="col-6" style="transform: translateY(40px);">
+                                <div class="shadow-sm bg-white rounded-3 p-4" style="border-top: 2px solid #766DF4;">
+                                    <h5 class="mb-3">Cross browser
+                                        supporting</h6>
+                                        <p class="text-muted small">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                            elit. Eos
+                                            architecto id
+                                            excepturi.</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="shadow-sm bg-white rounded-3 p-4" style="border-top: 2px solid #766DF4;">
+                                    <h5 class="mb-3">High performance
+                                        output</h6>
+                                        <p class="text-muted small">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                            elit. Eos
+                                            architecto id
+                                            excepturi.</p>
+                                </div>
+                            </div>
+                            <div class="col-6" style="transform: translateY(40px);">
+                                <div class="shadow-sm bg-white rounded-3 p-4" style="border-top: 2px solid #766DF4;">
+                                    <h5 class="mb-3">Pixel perfect design</h6>
+                                        <p class="text-muted small">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                            elit. Eos
+                                            architecto id
+                                            excepturi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- how it's work -->
+        <section>
+            <div class="container-xl py-5">
+                <h2 class="text-center fw-bold my-3">How it's work</h2>
+                <div class=" my-5">
+                    <hr class="mx-5">
+                    <div class="row g-4" style="margin-top: -66px;">
+                        <div class=" col-4 d-flex flex-column align-items-center">
+                            <span class="mb-4 d-flex justify-content-center align-items-center "
+                                style="height: 50px; width: 50px; border-radius: 9999px; position: relative;z-index: 99; box-shadow: 0 0 0 10px white; background-color: #766DF4; color: white; font-size: 1.2rem;">
+                                1
+                            </span>
+                            <h3 class="h4">Planing</h3>
+                            <p class="text-center text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Voluptates
+                                mollitia et.</p>
+                        </div>
+                        <div class="col-4 d-flex flex-column align-items-center">
+                            <span class="mb-4 d-flex justify-content-center align-items-center "
+                                style="height: 50px; width: 50px; border-radius: 9999px; position: relative;z-index: 99; box-shadow: 0 0 0 10px white; background-color: #766DF4; color: white; font-size: 1.2rem;">
+                                2
+                            </span>
+                            <h3 class=" h4">Development</h3>
+                            <p class="text-center text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Voluptates
+                                mollitia et.</p>
+                        </div>
+                        <div class="col-4 d-flex flex-column align-items-center">
+                            <span class="mb-4 d-flex justify-content-center align-items-center "
+                                style="height: 50px; width: 50px; border-radius: 9999px; position: relative;z-index: 99; box-shadow: 0 0 0 10px white; background-color: #766DF4; color: white; font-size: 1.2rem;">
+                                3
+                            </span>
+                            <h3 class="h4">Testing</h3>
+                            <p class="text-center text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Voluptates
+                                mollitia et.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- testimonials  -->
+        <section style="background-color: #F9F9FC;">
+            <div class="container-xl py-5">
+                <h1 class="text-center h2 mb-5 mt-2">What's our clients says</h1>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"
+                            aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner" style="height: 300px;">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-7 m-auto">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="mb-4" src="./assets/images/avtar.png" alt="">
+                                        <p class="text-center mb-3 lh-3 text-muted">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Dolor, id optio.
+                                            Ratione, harum. Iure, similique praesentium?</p>
+                                        <h6 style="color: #766DF4;">Hiroyasu Tsuchiya</h6>
+                                        <span class="small">Corporate Branding division</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-7 m-auto">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="mb-4" src="./assets/images/avtar.png" alt="">
+                                        <p class="text-center mb-3 lh-3 text-muted">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Dolor, id optio.
+                                            Ratione, harum. Iure, similique praesentium?</p>
+                                        <h6 style="color: #766DF4;">Hiroyasu Tsuchiya</h6>
+                                        <span class="small">Corporate Branding division</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-7 m-auto">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="mb-4" src="./assets/images/avtar.png" alt="">
+                                        <p class="text-center mb-3 lh-3 text-muted">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Dolor, id optio.
+                                            Ratione, harum. Iure, similique praesentium?</p>
+                                        <h6 style="color: #766DF4;">Hiroyasu Tsuchiya</h6>
+                                        <span class="small">Corporate Branding division</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="text-danger carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQs -->
+        <section>
+            <div class="container-xl py-5">
+                <h1 class="text-center h2 mb-3 mt-2">Q&A</h1>
+                <div class="row py-4">
+                    <div class="col-7 m-auto">
+                        <div class="accordion" id="FAQs">
+                            <div class="accordion-item mb-2" style="border-radius: 5px;">
+                                <h2 class="accordion-header" id="QOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        style="border-radius: 5px; box-shadow: none; background: white;" data-bs-target="#AOne" aria-expanded="true"
+                                        aria-controls="AOne">
+                                        1. What is the process after I place an inquiry?
+                                    </button>
+                                </h2>
+                                <div id="AOne" class="accordion-collapse collapse" aria-labelledby="QOne" data-bs-parent="#FAQs">
+                                    <div class="accordion-body ">
+                                        <p class="text-muted"> Once you have placed an inquiry, I will understand your
+                                            project needs and
+                                            requirements within 24 hours, and I will contact you
+                                            If you get the estimates optimum, I will make a statement to disclose the next
+                                            activity and after that, I will start developing further</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-2" style="border-radius: 5px;">
+                                <h2 class="accordion-header" id="QTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        style="border-radius: 5px; box-shadow: none; background: white;" data-bs-target="#ATwo" aria-expanded="true"
+                                        aria-controls="ATwo">
+                                        2. How much does it cost to build a website?
+                                    </button>
+                                </h2>
+                                <div id="ATwo" class="accordion-collapse collapse" aria-labelledby="QTwo" data-bs-parent="#FAQs">
+                                    <div class="accordion-body ">
+                                        <p class="text-muted"> The cost of creating a website depends on many factors, such
+                                            as number of pages, time-line, and functionality, if you want a basic
+                                            understanding of my plan contact me</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-2" style="border-radius: 5px;">
+                                <h2 class="accordion-header" id="QThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        style="border-radius: 5px; box-shadow: none; background: white;" data-bs-target="#AThree" aria-expanded="true"
+                                        aria-controls="AThree">
+                                        3. How long does it take to build a website?
+                                    </button>
+                                </h2>
+                                <div id="AThree" class="accordion-collapse collapse" aria-labelledby="QThree" data-bs-parent="#FAQs">
+                                    <div class="accordion-body ">
+                                        <p class="text-muted"> it is totally depending on your project, numbers-of-page,
+                                            time-line, functionality, complexity, etc.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-2" style="border-radius: 5px;">
+                                <h2 class="accordion-header" id="QFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        style="border-radius: 5px; box-shadow: none; background: white;" data-bs-target="#AFour" aria-expanded="true"
+                                        aria-controls="AFour">
+                                        4. What is your support and maintenance policy?
+                                    </button>
+                                </h2>
+                                <div id="AFour" class="accordion-collapse collapse" aria-labelledby="QFour" data-bs-parent="#FAQs">
+                                    <div class="accordion-body ">
+                                        <p class="text-muted"> I will provide you free support and maintenance for 2 months,
+                                            and after that, you want to support, and maintenance have to choose a package as
+                                            your requirements.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-2" style="border-radius: 5px;">
+                                <h2 class="accordion-header" id="QFive">
+                                    <button class="accordion-button collapsed" type=" button" data-bs-toggle="collapse"
+                                        style="border-radius: 5px; box-shadow: none; background: white;" data-bs-target="#AFive" aria-expanded="true"
+                                        aria-controls="AFive">
+                                        5. Who will provide the contents of the website?
+                                    </button>
+                                </h2>
+                                <div id="AFive" class="accordion-collapse collapse" aria-labelledby="QFive" data-bs-parent="#FAQs">
+                                    <div class="accordion-body ">
+                                        <p class="text-muted"> All contents of the website will be provided by the clients
+                                            whose website is.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact us -->
+        <section style="background-image: url(./assets/images/contactus.png);">
+            <div class="container-xl py-5">
+                <div class="row pt-5">
+                    <div class="col">
+                        <h1 class="text-white h2 mb-3">Contact Us</h1>
+                        <p class="text-light mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum animi
+                            facilis dolore dicta.
+                        </p>
+                        <span class="text-light small">Phone +91 9876387645</span>
+                    </div>
+                    <div class="col px-4">
+                        <form action="#">
+                            <div class="d-flex flex-column justify-content-center" style="width:70%;">
+                                <input class="c-input mb-4" type="text" placeholder="Enter your name*">
+                                <input class="c-input mb-4" type="text" placeholder="Enter your email*">
+                                <Textarea class="c-input mb-4" rows="4" placeholder="Write massage*"></Textarea>
+                                <input class="c-input c-submit mb-4" type="submit" placeholder="Enter your email*">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer  -->
+        <footer style="background-color: #2A2E33;">
+            <div class="container-xl pt-5 pb-3">
+                <div class="row">
+                    <div class="col">
+                        <ul class="footer-menu">
+                            <li>Menu</li>
+                            <li>Home</li>
+                            <li>Services</li>
+                            <li>Contact Us</li>
+                            <li>About Us</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="footer-menu">
+                            <li>Support</li>
+                            <li>Get help</li>
+                            <li>Report a bug</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="footer-menu">
+                            <li>Project</li>
+                            <li>Updates</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="footer-menu">
+                            <li>Overview</li>
+                            <li>About Us</li>
+                            <li>Contact Us</li>
+                            <li>Terms of services</li>
+                            <li>Privacy policy</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <ul class="footer-menu">
+                        <span>Follow us</span>
+                        <div class="d-flex py-3 followus">
+                            <i><svg xmlns="http://www.w3.org/2000/svg" width="33.811" height="33.811" viewBox="0 0 33.811 33.811">
+                                    <g id="facebook.link" transform="translate(0.323)">
+                                        <rect id="Rectangle_149" data-name="Rectangle 149" width="32" height="32" rx="10"
+                                            transform="translate(0.386 1.811)" fill="#fff" />
+                                        <path id="facebook-square-brands"
+                                            d="M30.188,32H3.623A3.623,3.623,0,0,0,0,35.623V62.188a3.623,3.623,0,0,0,3.623,3.623H13.981V54.316H9.226v-5.41h4.755V44.782c0-4.69,2.792-7.281,7.069-7.281a28.8,28.8,0,0,1,4.19.365v4.6H22.88a2.705,2.705,0,0,0-3.05,2.923v3.513h5.191l-.83,5.41H19.83V65.811H30.188a3.623,3.623,0,0,0,3.623-3.623V35.623A3.623,3.623,0,0,0,30.188,32Z"
+                                            transform="translate(-0.323 -32)" fill="#766df4" />
+                                    </g>
+                                </svg>
+                            </i>
+                            <i class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="34" viewBox="0 0 35 34">
+                                    <g id="linkedin.link" transform="translate(-191 -275.398)">
+                                        <rect id="Rectangle_332" data-name="Rectangle 332" width="31" height="29" transform="translate(193 277.398)"
+                                            fill="#fff" />
+                                        <g id="linkedin.link-2" data-name="linkedin.link">
+                                            <path id="Subtraction_5" data-name="Subtraction 5"
+                                                d="M21202-4618.6h-29a3,3,0,0,1-3-3v-28a3,3,0,0,1,3-3h29a3.006,3.006,0,0,1,3,3v28A3.006,3.006,0,0,1,21202-4618.6Zm-8.893-19.738c1.885,0,2.619,1.059,2.619,3.778v9.962h3.912v-10.473c0-4.4-1.729-6.631-5.137-6.631a7.87,7.87,0,0,0-5.471,2.65h-.139l-.271-2.24h-3.23v16.694h3.912v-11.665C21190.746-4637.671,21191.684-4638.34,21193.105-4638.34Zm-16.625-2.954h0v16.694h3.912v-16.694h-3.912Zm1.975-7.381a2.259,2.259,0,0,0-2.416,2.246,2.243,2.243,0,0,0,2.416,2.208,2.24,2.24,0,0,0,2.41-2.208A2.231,2.231,0,0,0,21178.455-4648.675Z"
+                                                transform="translate(-20979 4928)" fill="#766df4" />
+                                        </g>
+                                    </g>
+                                </svg>
+
+                            </i>
+                            <i>
+                                <svg id="twitter.link" xmlns="http://www.w3.org/2000/svg" width="35.573" height="35.573" viewBox="0 0 35.573 35.573">
+                                    <g id="Group_169" data-name="Group 169">
+                                        <rect id="Rectangle_151" data-name="Rectangle 151" width="32" height="32" rx="10"
+                                            transform="translate(2.082 2.014)" fill="#fff" />
+                                        <path id="twitter-square-brands"
+                                            d="M31.762,32H3.811A3.812,3.812,0,0,0,0,35.811v27.95a3.812,3.812,0,0,0,3.811,3.811h27.95a3.812,3.812,0,0,0,3.811-3.811V35.811A3.812,3.812,0,0,0,31.762,32ZM27.879,44.609c.016.222.016.453.016.675A14.716,14.716,0,0,1,13.078,60.1a14.748,14.748,0,0,1-8-2.334,10.971,10.971,0,0,0,1.255.064A10.441,10.441,0,0,0,12.8,55.607a5.215,5.215,0,0,1-4.867-3.613,5.613,5.613,0,0,0,2.35-.1,5.208,5.208,0,0,1-4.169-5.114v-.064a5.2,5.2,0,0,0,2.35.659,5.2,5.2,0,0,1-2.319-4.335,5.143,5.143,0,0,1,.707-2.628,14.787,14.787,0,0,0,10.735,5.447,5.219,5.219,0,0,1,8.885-4.756,10.2,10.2,0,0,0,3.3-1.255A5.194,5.194,0,0,1,27.49,42.72a10.364,10.364,0,0,0,3-.81A10.962,10.962,0,0,1,27.879,44.609Z"
+                                            transform="translate(0 -32)" fill="#766df4" />
+                                    </g>
+                                </svg>
+
+                            </i>
+                            <i>
+                                <svg id="insta.link" xmlns="http://www.w3.org/2000/svg" width="35.573" height="35.573" viewBox="0 0 35.573 35.573">
+                                    <rect id="Rectangle_150" data-name="Rectangle 150" width="28" height="28" rx="10"
+                                        transform="translate(3.33 4.014)" fill="#fff" />
+                                    <path id="instagram-square-brands"
+                                        d="M17.786,45.551a4.235,4.235,0,1,0,4.237,4.236A4.235,4.235,0,0,0,17.786,45.551Zm9.9-3.256a4.288,4.288,0,0,0-2.415-2.415c-1.667-.658-5.638-.511-7.488-.511s-5.816-.153-7.489.511A4.288,4.288,0,0,0,7.883,42.3c-.657,1.667-.511,5.642-.511,7.49s-.147,5.818.514,7.491A4.288,4.288,0,0,0,10.3,59.691c1.667.658,5.638.511,7.489.511s5.816.153,7.488-.511a4.288,4.288,0,0,0,2.415-2.415c.663-1.667.511-5.642.511-7.49s.152-5.817-.511-7.49Zm-9.9,14a6.5,6.5,0,1,1,4.606-1.9,6.511,6.511,0,0,1-4.606,1.9Zm6.779-11.776a1.511,1.511,0,1,1,1.077-.443,1.52,1.52,0,0,1-1.077.443ZM31.762,32H3.811A3.811,3.811,0,0,0,0,35.811v27.95a3.811,3.811,0,0,0,3.811,3.811h27.95a3.811,3.811,0,0,0,3.811-3.811V35.811A3.811,3.811,0,0,0,31.762,32ZM30.4,55.027a7.555,7.555,0,0,1-2.053,5.32,7.559,7.559,0,0,1-5.32,2.053c-2.1.118-8.384.118-10.481,0a7.569,7.569,0,0,1-5.32-2.053,7.532,7.532,0,0,1-2.053-5.32c-.118-2.1-.118-8.386,0-10.481a7.531,7.531,0,0,1,2.053-5.32,7.573,7.573,0,0,1,5.32-2.047c2.1-.118,8.384-.118,10.481,0a7.56,7.56,0,0,1,5.32,2.053A7.559,7.559,0,0,1,30.4,44.555C30.52,46.645,30.52,52.928,30.4,55.027Z"
+                                        transform="translate(0 -32)" fill="#766df4" />
+                                </svg>
+
+                            </i>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div style="background-color: #212529; height: 58px; ">
+                <div class="container-xl h-100" style="display: flex; justify-content: end; align-items: center;color: #c7c7c9;">
+                    <span class="small">&copy;Company.inc</span>
+                    <span class="small ms-3">Termas & Conditions</span>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./assets/js/popper.js"></script>
+        <script src="./assets/js/bootstrap.js"></script>
+    </body>
+
+</html>
